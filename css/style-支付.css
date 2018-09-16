@@ -1,0 +1,324 @@
+/*
+* @Author: asusaa
+* @Date:   2018-08-12 16:34:49
+* @Last Modified by:   asusaa
+* @Last Modified time: 2018-08-13 19:40:00
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "苹方";
+}
+header{
+	width: 100%;
+	height: 3.36rem;
+	background: #00b7ee;
+	padding-left: 0.24rem;
+	padding-top: 1.3rem;
+	padding-right: 0.24rem;
+	position: relative;
+
+	
+}
+header .img1 img{
+	width: 0.35rem;
+	height: 0.45rem; 
+	position: absolute;
+	top: 0.6rem;
+	left: 0.3rem;
+}
+
+header h5{
+	font-size: 0.18rem;
+	color: #fff;
+
+}
+
+header h3{
+	font-size: 0.24rem;
+	color: #fff;
+	margin-top: 0.22rem;
+	margin-bottom: 0.18rem;
+}
+header .bottom{
+	margin-top: 0.18rem;
+	width: 100%;
+	height: 2.4rem;
+	border-radius: 0.1rem;
+	background: #fff;
+	box-shadow: 0rem  0rem 0.06rem rgba(0, 183, 238, 0.6);
+	position: relative;
+}
+header .bottom h6{
+	font-size: 0.18rem;
+	color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 1.32rem;
+	left: 0.3rem;
+}
+header .bottom .top1{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	font-size: 0.32rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	border-bottom:0.01rem solid rgba(0, 0, 0, 0.2);
+}
+header .bottom .top1 p{
+	float: left;
+
+}
+
+header .bottom .next{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	font-size: 0.32rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	border-bottom:0.01rem solid rgba(0, 0, 0, 0.2);
+}
+header .bottom .top1 p.right{
+	float: right;
+	color: blue;
+	font-size: 0.24rem;
+	
+}
+header .bottom .next p{
+	float: left;
+}
+header .bottom .next p.right{
+	float: right;
+	font-size: 0.24rem;
+	
+}
+header .bottom .next p a{
+	color: blue;
+}
+
+/* 点菜样式 */
+.order{
+	width: 100%;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	margin-top:1.98rem;
+	color: black;
+
+	
+}
+.order .top{
+	width: 100%;
+	height: 7.1rem;
+	border-radius: 0.1rem;
+	box-shadow: 0rem  0rem 0.06rem rgba(0, 183, 238, 0.6);
+	padding: 0	 0.2rem;
+	overflow: scroll;
+	padding-bottom: 1rem;
+	
+}
+.order .top ul li{
+	font-size: 0.32rem;
+	height: 1.17rem;
+	line-height: 1.17rem;
+	padding-left: 0.7rem;
+	padding-right: 0.3rem;
+
+	border-bottom:0.01rem solid rgba(0, 0, 0, 0.2);
+}
+
+
+.order .top ul li:nth-child(1){
+
+	text-align: center;
+}
+.order .top ul li:nth-child(2){
+	background-image: url('../img/zf1.png');
+	background-repeat: no-repeat;
+	background-size: 0.32rem 0.32rem;
+	background-position: 0.2rem center;
+}
+.order .top ul li:nth-child(3){
+	background-image: url('../img/zf2.png');
+	background-repeat: no-repeat;
+	background-size: 0.32rem 0.32rem;
+	background-position: 0.2rem center;
+
+}
+.order .top ul li:nth-child(4){
+	background-image: url('../img/zf3.png');
+	background-repeat: no-repeat;
+	background-size: 0.32rem 0.32rem;
+	background-position: 0.2rem center;
+
+}
+.order .top ul li:nth-child(5){
+	background-image: url('../img/zf4.png');
+	background-repeat: no-repeat;
+	background-size: 0.37rem 0.37rem;
+	background-position: 0.2rem center;
+
+}
+.order .top ul li:nth-child(6){
+	background-image: url('../img/zf5.png');
+	background-repeat: no-repeat;
+	background-size: 0.32rem 0.32rem;
+	background-position: 0.2rem center;
+
+}
+.order .top ul li:nth-child(6) p{
+	float: right;
+}
+
+
+
+.order .top ul li .left{
+
+	float: left
+;
+
+}
+.order .top ul li .right{
+	font-size: 0.32rem;
+	float: right;
+	color: red;
+}
+.order .top ul li .next{
+	font-size: 0.26rem;
+	float: right;
+	margin-right: 0.7rem;
+
+}
+
+
+
+/* 备注 */
+.order .bottom{
+	width: 100%;
+	height: 2.44rem;
+	margin-top: 0.18rem;
+	border-radius: 0.1rem;
+	box-shadow: 0rem  0rem 0.06rem rgba(0, 183, 238, 0.6);
+	padding: 0 0.2rem;
+	padding-bottom: 1rem;
+	overflow: scroll;
+}
+.order .bottom .top1{
+	height: 1.22rem;
+	font-size: 0.32rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	line-height: 1.22rem;
+	border-bottom:0.01rem solid rgba(0, 0, 0, 0.2);
+}
+.order .bottom .top1 p{
+	float: left;
+
+}
+.order .bottom .top1 p.right1{
+	float: right;
+	font-size: 0.26rem;
+
+	
+}
+.order .bottom .next{
+	height: 1.22rem;
+	font-size: 0.32rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	line-height: 1.22rem;
+	
+}
+.order .bottom .next p{
+	float: left;
+
+}
+.order .bottom .next p.right1{
+	float: right;
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 0.26rem;
+	
+}
+
+/* 底部样式 */
+
+footer{
+	width: 100%;
+	height:1.07rem;
+	position: fixed;
+	box-shadow: 0 0  0.06rem 0.03rem rgba(0, 183, 238, 0.6);
+	bottom: 0;
+	background: #fff;
+}
+
+footer .shopicon{
+	width: 1.32rem;
+	height: 1.32rem;
+	border-radius: 50%;
+	background: #00b7ee;
+	box-shadow: 0 0 0.06rem 0.06rem #bbdde7;
+	position: absolute;
+	bottom: 0.39rem;
+	left: 0.41rem;
+	
+}
+footer .shopicon i.icon{
+	display: block;
+	width: 1.32rem;
+	height: 1.32rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.32rem;
+	color: #fff;
+	font-size: 0.8rem;
+}
+footer .text{
+	width: 2.2rem;
+	line-height: 0.3rem;
+	position: absolute;
+	font-weight: bold;
+	top: 0.27rem;
+	left: 1.9rem;	
+	font-size: 0.28rem;
+	color: rgba(0, 0, 0, 0.8);
+
+}
+footer .text span{
+	color: red;
+}
+footer .shop{
+	width: 1.46rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.27rem;
+	right: 0.36rem;
+	background: #ff4c4c;
+	box-shadow: 0 0 0.06rem 0.06rem #ffe3e3;
+	border-radius: 0.3rem;
+
+}
+footer .shop a{
+
+	display: block;
+	width: 1.46rem;
+	height: 0.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+footer .shop .R{
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	background: #fff;
+	color: #fff;
+
+}
+footer .shop h6{
+	margin-left: 0.16rem;
+	font-size: 0.22rem;
+	color: #fff;
+}

@@ -1,0 +1,413 @@
+/*
+* @Author: asusaa
+* @Date:   2018-08-09 09:40:47
+* @Last Modified by:   asusaa
+* @Last Modified time: 2018-08-17 09:40:41
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: "苹方";
+}
+
+/* 店铺头部样式 */
+header{
+	width: 100%;
+	height: 3.35rem;
+	background: #00b7ee;
+	overflow: hidden;
+	position: fixed;
+
+	top: 0;
+}
+header .img1{
+	width: 0.35rem;
+	height: 0.45rem; 
+	position: absolute;
+	top: 0.6rem;
+	left: 0.3rem;
+}
+
+header .img1 img{
+	display: block;
+	width: 0.35rem;
+	height: 0.45rem; 
+}
+header .img2{
+	width: 0.46rem;
+	height: 0.45rem; 
+	position: absolute;
+	top: 0.6rem;
+	right: 0.3rem;
+}
+header .img2 img{
+	display: block;
+	width: 0.46rem;
+	height: 0.45rem; 
+}
+header .box{
+	width: 100%;
+	height: 1.88rem;
+	margin-top: 1.01rem;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+header .box .left{
+	width: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+header .box .right{
+	width: 5rem;
+
+}
+header .box .left img{
+	width: 1.66rem;
+	height: 1.66rem;
+}
+header .box .right h2{
+	font-size: 0.32rem;
+	color: #fff;
+}	
+header .box .right h4{
+	margin-top: 0.25rem;
+	font-weight: normal;
+	font-size: 0.24rem;
+	height: 0.25rem;
+	line-height: 0.25rem;
+	color: #fff;
+}
+header .box .right p{
+	font-size: 0.18rem;
+	color: #fff;
+	margin-top: 0.05rem;
+}
+header .box .right p .icon{
+	font-size: 0.22rem;
+	color: yellow;
+	margin-right:0.01rem;
+}
+header .box .right p i:nth-child(5){
+	color: #fff;
+	margin-right:0.1rem;
+}
+header .box .right .bottom{
+	font-size: 0.18rem;
+	height: 0.3rem;
+	display: flex;
+	color: #fff;
+	margin-top: 0.05rem;
+	line-height: 0.3rem;
+}
+header .box .right .bottom .box1{
+	width: 0.82rem;
+	height: 0.3rem;
+	border-radius: 0.1rem;
+	border: 0.01rem solid #00a0e9;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.3rem;
+	color: #ff0042;
+	background: #fff;
+	margin-right:0.1rem; 
+
+}
+/* 列表主题样式 */
+main{
+	width: 100%;
+	height:8.92rem;
+	margin-top:  3.35rem;
+	display: flex;
+}
+main .Bleft{
+	width: 2.24rem;
+	height: 8.92rem;
+}
+main .Bleft ul li{
+	height: 0.88rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		
+}
+main .Bleft ul li a{
+	display: block;
+	height: 0.88rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.8);
+
+}
+main .Bleft ul li .box{
+	width: 	1.12rem;
+	height: 0.42rem;
+	border-radius: 0.18rem;
+	border: 0.01rem solid #00b7ee;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.42rem;
+	font-weight: bold;
+
+
+}
+
+main .Bleft ul li:nth-child(3){
+	background: #fffee5;
+	border-left:  0.03rem solid #00b7ee;
+}
+
+
+main .Bright{
+	width: 5.26rem;
+	height: 8.92rem;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding-top: 0.30rem;
+}
+
+main .Bright ul li{
+	width: 4.78rem;
+	height: 1.62rem;
+	margin-bottom: 0.28rem;
+	margin-left: 0.26rem;
+	box-shadow:  0.02rem 0.02rem  0.06rem rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+main .Bright ul li .ycbox{
+
+	width: 1rem;
+	position: absolute;
+	right: 0.21rem;
+	top: 0.18rem;
+	/*height: 0.35rem;*/
+	display: none;
+
+
+}
+main .Bright ul li .ycbox .flex{
+	width: 100%;
+	/*height: 100%;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+main .Bright ul li .ycbox p{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+
+
+
+}
+main .Bright ul li .leftB{
+	width: 0.35rem;
+	height: 0.35rem;
+	border-radius: 50%;
+	background-color: #00b7ee;
+	/*position: absolute;*/
+	left: 0;
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	color: white;
+	text-align: center;
+	top: 0;
+
+
+}
+main .Bright ul li .rightB{
+	width: 0.35rem;
+	height: 0.35rem;
+	border-radius: 50%;
+	background-color: #00b7ee;
+	/*position: absolute;*/
+	right: 0;
+	top: 0;
+	color: white;
+	text-align: center;
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+}
+
+
+main .Bright ul li .muny{
+	width: 1rem;
+	height: 0.34rem;
+	text-align: center;
+	line-height: 0.34rem;
+	position: absolute;
+	top: 0.94rem;
+	right: 0.46rem;
+
+}
+main .Bright ul li .muny .e1{
+	font-size: 0.28rem;
+	color: red;
+	display: flex;
+
+
+}
+
+main .Bright ul li .left{
+	width: 1.56rem;
+	height: 1.62rem;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+
+}
+main .Bright ul li .left a{
+	display: block;
+	width: 1.04rem;
+	height: 1.24rem;
+	background-image: url('../img/main-1.png');
+	background-size: 1.04rem 1.24rem;
+	background-repeat: no-repeat;
+}
+main .Bright ul li .right{
+	width: 3.22rem;
+	height: 1.62rem;
+	float: left;
+
+}
+main .Bright ul li .right h2{
+	font-size: 0.28rem;
+	margin-top: 0.12rem;
+	width: 1.9rem;
+	border-bottom: 0.01rem dotted rgba(0, 0, 0, 0.4);
+
+}
+main .Bright ul li .right h4{
+	font-size: 0.2rem;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+main .Bright ul li .right h5{
+	font-size: 0.18rem;
+	color: rgba(0, 0, 0, 0.8);
+	margin-top: 0.15rem;
+}
+main .Bright ul li .right p{
+	font-size: 0.18rem;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+
+/* 底部样式 */
+
+footer{
+	width: 100%;
+	height:1.07rem;
+	position: relative;
+	box-shadow: 0 0  0.06rem 0.03rem rgba(0, 183, 238, 0.6);
+}
+
+footer .shopicon{
+	width: 1.32rem;
+	height: 1.32rem;
+	border-radius: 50%;
+	background: #4c4c4c;
+	box-shadow: 0 0 0.06rem 0.06rem #d6d6d6;
+	position: absolute;
+	bottom: 0.39rem;
+	left: 0.41rem;
+	
+}
+footer .hot{
+	background-color: #00b7ee;
+	/*box-shadow: 0 0 0.06rem 0.06rem  #00b7ee;*/
+}
+footer .shopicon i.icon{
+	display: block;
+	width: 1.32rem;
+	height: 1.32rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.32rem;
+	color: #fff;
+	font-size: 0.8rem;
+}
+footer .text{
+	width: 2.2rem;
+	line-height: 0.3rem;
+	position: absolute;
+	font-weight: bold;
+	top: 0.27rem;
+	left: 1.9rem;	
+	font-size: 0.28rem;
+	color: rgba(0, 0, 0, 0.8);
+
+}
+footer .text span{
+	display: block;
+	font-size: 0.32rem;
+	margin-bottom: 0.05rem;
+	/*letter-spacing: 2px;*/
+	color: #ff0000;
+	/*opacity: 0.8;*/
+}
+footer .text p{
+	font-size: 0.28rem;
+
+	color: #000000;
+	/*opacity: 0.8;*/
+}
+
+footer .shop{
+	width: 1.46rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.27rem;
+	right: 0.36rem;
+	background: #4c4c4c;
+	box-shadow: 0 0 0.06rem 0.06rem #d6d6d6;
+	border-radius: 0.3rem;
+
+}
+footer .hot1{
+	background: #ff0000;
+	/*box-shadow: 0 0 0.06rem 0.06rem #ff0000;*/
+}
+footer .shop a{
+	display: block;
+	display: block;
+	width: 1.46rem;
+	height: 0.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+footer .shop .R{
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	background: red;
+	color: #fff;
+
+}
+footer .shop h6{
+	margin-left: 0.16rem;
+	font-size: 0.22rem;
+	color: #fff;
+}
+
+.zz{
+	width: 7.02rem;
+	height: 5.77rem;
+	background-color: #f5f5ff;
+	border-radius: 13px;
+}

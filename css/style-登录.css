@@ -1,0 +1,134 @@
+/*
+* @Author: asusaa
+* @Date:   2018-08-15 15:49:42
+* @Last Modified by:   asusaa
+* @Last Modified time: 2018-08-15 17:19:47
+*/
+.Bbox{
+	width: 100%;
+	height: 13.34rem;
+	background-image: url('../img/dlb.png');
+	background-size: cover;
+	overflow: hidden;
+}
+/* 用户 */
+.hard{
+	width: 3.17rem;
+	height: 3.17rem;
+	background-image: url('../img/dl1.png');
+	background-size: cover;
+	margin: 2.35rem auto 0;
+
+}
+
+
+.user{
+	width: 5.71rem;
+	height: 2.37rem;
+	margin: 0.85rem auto 0;
+	box-shadow: 0 0 0.06rem #70d5ff;
+	border-radius: 0.1rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	position: relative;
+
+
+}
+.a{
+	font-size: 0.4rem;
+	color: #70d5ff ;
+	display: none;
+
+}
+.a.true,.false{
+	position: absolute;
+	top: 0.5rem;
+	right: 0.3rem;
+
+}
+
+.a.true1,.false1{
+	position: absolute;
+	top: 1.5rem;
+	right: 0.3rem;
+
+}
+
+.user input:nth-child(1){
+	display: block;
+	width: 100%;
+	height: 1.03rem;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding-top: 0.5rem;
+}
+.user input:nth-child(2){
+	display: block;
+	width: 100%;
+	height: 1.11rem;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 0.28rem;
+	padding-top: 0.5rem;
+}
+.goon{
+	width: 5.71rem;
+	height: 0.82rem;
+	margin: 0.43rem auto 0;
+	background: #70d5ff;
+	box-shadow: 0 0 0.06rem #70d5ff;
+	border-radius: 0.1rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.83rem;
+	font-size: 0.32rem;
+}
+.text{
+	width: 5.71rem;
+	margin: 0.23rem auto 0;
+	display: flex;
+	justify-content: space-between;
+	color: #70d5ff;
+	font-size: 0.24rem;
+	font-weight: bold;
+
+}
+.text .icon{
+	margin-left: 0.1rem;
+	font-size: 0.24rem;
+}
+
+.image{
+	width: 2.88rem;
+	margin: 0.87rem auto 0;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.image .left{
+	width: 0.84rem;
+	height: 0.77rem;
+	background-image: url('../img/qq.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.image .right{
+	width: 0.84rem;
+	height: 0.77rem;
+	background-image: url('../img/vx.png');
+	background-size: cover;
+}
+
+.text2{
+	width: 5.71rem;
+	margin: 0.23rem auto 0;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 0.24rem;
+	font-weight: bold;
+	text-align: center;
+}

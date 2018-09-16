@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/style-登录.css">
+	<link rel="stylesheet" href="http://at.alicdn.com/t/font_794375_xo6sue3qx3p.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<!-- 背景 -->
+	<div class="Bbox">
+
+
+		<!-- 用户 -->
+		<div class="hard">
+			
+		</div>
+		<div class="user">
+			<form action="">
+				<input type="text" placeholder="请输入手机号">
+
+
+				<input type="password" placeholder="请输入手机号">
+
+
+			</form>
+			<div class="a true">✔ </div>
+			<div class="a true1">✔ </div>
+			<div class="a false">×</div>
+			<div class="a false1">×</div>
+		
+		</div>
+		
+
+		<!-- 登录按钮 -->
+		<div class="goon">登录</div>
+
+
+
+		<!-- 小字 -->
+		<div class="text">
+			<div class="left">忘记密码<i class="icon iconfont icon-wenhao"></i></div>
+			<div class="right">新用户注册</div>
+		</div>
+
+		
+
+		<!-- QQ、微信 -->
+		<div class="image">
+			<div class="left"></div>
+			<div class="right"></div>
+		</div>
+
+		<!-- 第三方登录 -->
+		<div class="text2">
+			使用第三方登录
+		</div>
+
+
+		
+
+
+
+
+	</div>
+
+
+
+</body>
+</html>
+<script>
+	let user = $("input[type='text']");
+	let pass = $("input[type='password']");
+	let a = $(".a");
+	let t1 = $(".true");
+    let t2 = $(".true1");
+    let f1 = $(".false");
+    let f2 = $(".false1");
+
+    let btn = $(".goon");
+    console.log(a,f1,f2,t1,t2);
+    btn.click(function () {
+        console.log(1);
+        console.log(user.val(),pass.val());
+        if(user.val() != "admin" && pass.val() != `111111` ){
+		    t1.css({display:"none"});
+			t2.css({display:"none"});
+		    f1.css({display:"block"});
+            f2.css({display:"block"});
+
+        }else if(user.val() == "admin" && pass.val() != `111111` ){
+
+            t2.css({display:"none"});
+            f1.css({display:"none"});
+            t1.css({display:"block"});
+            f2.css({display:"block"});
+		}else if(user.val() != "admin" && pass.val() == `111111` ){
+            f2.css({display:"none"});
+            t1.css({display:"none"});
+
+            f1.css({display:"block"});
+            t2.css({display:"block"});
+        }else if(user.val() == "admin" && pass.val() == `111111` ){
+
+            f1.css({display:"none"});
+            f2.css({display:"none"});
+            t1.css({display:"block"});
+            t2.css({display:"block"});
+            alert("登录成功");
+            setTimeout(function () {
+
+				window.open("1-首页.html")
+            },500)
+        }
+
+
+
+
+
+    })
+
+</script>

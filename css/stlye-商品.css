@@ -1,0 +1,318 @@
+/*
+* @Author: asusaa
+* @Date:   2018-08-16 08:45:43
+* @Last Modified by:   asusaa
+* @Last Modified time: 2018-08-16 16:41:07
+*/
+/* 头部的样式 */
+header{
+	width: 100%;
+	height: 3rem;
+	padding: 0.7rem 0.24rem 0;
+	background-color: #00b7ee;
+	color: #fff;
+}
+header .img1{
+	width: 0.35rem;
+	height: 0.45rem; 
+	position: absolute;
+	top: 0.6rem;
+	left: 0.3rem;
+}
+
+header .img1 img{
+	display: block;
+	width: 0.35rem;
+	height: 0.45rem; 
+}
+header .img2{
+	width: 0.46rem;
+	height: 0.45rem; 
+	position: absolute;
+	top: 0.6rem;
+	right: 0.3rem;
+}
+header .img2 img{
+	display: block;
+	width: 0.46rem;
+	height: 0.45rem; 
+}
+header h2{
+	font-size: 0.32rem;
+	text-align: center;
+}
+header h5{
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.28rem;
+}
+header .img{
+	width: 7.02rem;
+	height: 2.48rem;
+	border-radius: 0.3rem;
+	background-image: url('../img/shopbanner.png');
+	background-size: cover;
+	margin-top: 0.24rem;
+	position: fixed;
+	top: 1.49rem;
+	left: 0.24rem;
+}
+.con{
+	width: 100%;
+	height:9.5rem;
+	padding: 0 0.24rem;
+	overflow: scroll;
+}
+.con .text1{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 1.34rem;
+}
+.con .text1 .box1{
+	font-size: 0.28rem;
+	line-height: 0.28rem;
+	font-weight: bold;
+
+}
+.con .text1 .box2{
+	width: 0.76rem;
+	height: 0.28rem;
+	border-radius: 0.14rem;
+	border: 0.01rem solid #00b7ee;
+	font-size: 0.18rem;
+	line-height: 0.28rem;
+	text-align: center;
+	margin-left: 0.28rem;
+
+}
+.con .text1 .box3{
+	width: 0.96rem;
+	height: 0.28rem;
+	border-radius: 0.14rem;
+	border: 0.01rem solid #00b7ee;
+	font-size: 0.18rem;
+	line-height: 0.28rem;
+	text-align: center;
+	margin-left: 0.28rem;
+
+}
+.con .icon1{
+	font-size: 0.20rem;
+	color: rgba(0, 0, 0, 0.4);
+	line-height: 0.1rem;
+}
+.con .text2{
+	margin-top: 0.08rem;
+	font-size: 0.18rem;
+	color: rgba(0, 0, 0, 0.8);
+}
+.con .img1{
+	height: 0.37rem;
+	background-image: url('../img/shopuser.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 0.08rem;
+}
+.con .user{
+	margin-top: 0.18rem;
+	display: flex;
+	flex-wrap: nowrap;
+
+}
+.con .name{
+
+	margin-left: 0.1rem;
+}
+.con .user .imgt{
+	width: 0.82rem;
+	height: 0.82rem;
+	background-image: url('../img/shopuser1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.con .user .top{
+	width: 0.96rem;
+	height: 0.4rem;
+	border-radius: 0.15rem;
+	border: 0.01rem solid rgba(0, 0, 0, 0.8);
+	text-align: center;
+	line-height: 0.4rem;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 0.22rem;
+}
+.con .user .bottom{
+	height: 0.42rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 0.18rem;
+}
+
+.con .btext{
+	width: 100%;
+	height: 1.06rem;
+	background: #f4f4f4;
+	padding: 0.2rem 0.66rem;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 0.24rem;
+	font-weight: bold;
+	margin-top: 0.21rem;
+	border-radius: 0.15rem;
+}
+
+.con .butt{
+	width: 100%;
+	height: 0.4rem;
+	margin-top: 0.2rem;
+	
+}
+.con .butt .right{
+	width: 1.1rem;
+	height: 0.38rem;
+	line-height: 0.38rem;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	font-size: 0.18rem;
+	border-radius: 0.19rem;
+	background: #00b7ee;
+	box-shadow: 0 0 0.06rem 0.06rem #e8f5f8;
+}
+.con .butt .text3{
+	float: right;
+	height: 0.4rem;
+	font-size: 0.18rem;
+	line-height:  0.4rem;
+	padding-right: 0.26rem;
+}
+
+/* 图片盒子 */
+.con .imgbox{
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	margin-top: 0.34rem;
+}
+
+.con .imgbox .box{
+	width: 3.38rem;
+	height: 3.48rem;
+	margin-bottom: 0.24rem;
+	background-image: url('../img/shop01.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.con .imgbox .box:nth-child(2){
+	background-image: url('../img/shop02.png');
+
+}
+.con .imgbox .box:nth-child(3){
+	background-image: url('../img/shop03.png');
+
+}
+.con .imgbox .box:nth-child(4){
+	background-image: url('../img/shop04.png');
+
+}
+.con .imgbox .box h2{
+	margin-top: 2.2rem;
+	text-align: center;
+	font-size: 0.28rem;
+	color: rgba(0, 0, 0,0.8);
+}
+.con .imgbox .box h4{
+	text-align: center;
+	font-size: 0.2rem;
+	color: rgba(0, 0, 0,0.6);
+}
+.con .imgbox .box h5{
+	text-align: center;
+	font-size: 0.28rem;
+	color: red;
+	font-weight: normal;
+
+}
+
+/* 底部样式 */
+
+footer{
+	width: 100%;
+	height:1.07rem;
+	position: fixed;
+	background: #fff;
+	left: 0;
+	bottom: 0;
+	box-shadow: 0 0  0.06rem 0.03rem rgba(0, 183, 238, 0.6);
+}
+
+footer .shopicon{
+	width: 1.32rem;
+	height: 1.32rem;
+	border-radius: 50%;
+	background: #4c4c4c;
+	box-shadow: 0 0 0.06rem 0.06rem #d6d6d6;
+	position: absolute;
+	bottom: 0.39rem;
+	left: 0.41rem;
+	
+}
+footer .shopicon i.icon{
+	display: block;
+	width: 1.32rem;
+	height: 1.32rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.32rem;
+	color: #fff;
+	font-size: 0.8rem;
+}
+footer .text{
+	width: 2.2rem;
+	line-height: 0.3rem;
+	position: absolute;
+	font-weight: bold;
+	top: 0.27rem;
+	left: 1.9rem;	
+	font-size: 0.28rem;
+	color: rgba(0, 0, 0, 0.8);
+
+}
+footer .shop{
+	width: 1.46rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.27rem;
+	right: 0.36rem;
+	background: #4c4c4c;
+	box-shadow: 0 0 0.06rem 0.06rem #d6d6d6;
+	border-radius: 0.3rem;
+
+}
+footer .shop a{
+	display: block;
+	display: block;
+	width: 1.46rem;
+	height: 0.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+footer .shop .R{
+	width: 0.12rem;
+	height: 0.12rem;
+	border-radius: 50%;
+	background: red;
+	color: #fff;
+
+}
+footer .shop h6{
+	margin-left: 0.16rem;
+	font-size: 0.22rem;
+	color: #fff;
+}

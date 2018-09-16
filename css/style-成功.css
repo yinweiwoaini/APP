@@ -1,0 +1,186 @@
+/*
+* @Author: asusaa
+* @Date:   2018-08-16 19:09:19
+* @Last Modified by:   asusaa
+* @Last Modified time: 2018-08-16 19:49:13
+*/
+header{
+	width: 100%;
+	height: 2.27rem;
+	padding: 1.19rem 0.24rem 0;
+	background: #00b8ee;
+}
+header .img1{
+	width: 0.35rem;
+	height: 0.45rem; 
+	position: absolute;
+	top: 0.6rem;
+	left: 0.3rem;
+}
+
+header .img1 img{
+	display: block;
+	width: 0.35rem;
+	height: 0.45rem; 
+}
+header h2{
+	font-size: 0.32rem;
+	color: #fff;
+}
+header .box{
+	width: 100%;
+	height: 1.89rem;
+	display: flex;
+	margin-top: 0.24rem;
+	flex-wrap: wrap;
+	background: #fff;
+	border-radius: 0.2rem;
+	box-shadow: 0 0 0.06rem #00b8ee;
+}
+
+header .box .img{
+	width: 1.78rem;
+	height: 1.89rem;
+
+}
+header .box .img img{
+	display: block;
+	width: 1.1rem;
+	height: 1.08rem;
+	margin: 0.44rem auto 0;
+}
+
+header .box .left{
+	width: 2.76rem;
+	height: 1.89rem;
+	padding-left: 0.17rem;
+	padding-top: 0.6rem;
+
+}
+
+header .box .left h3{
+	font-size: 0.32rem;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 0.32rem;
+}
+header .box .left h4{
+	font-size: 0.24rem;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 0.24rem;
+	margin-top: 0.17rem;
+}
+
+header .box .right{
+	width: 2.3rem;
+	height: 1.89rem;
+	font-size: 0.28rem;
+	padding-top: 0.8rem;
+	padding-left: 0.36rem;
+	color: red;
+}
+/* 支付成功 */
+.ok{
+	width: 100%;
+	margin-top: 1.5rem;
+	padding-top: 0.33rem;
+
+}
+.ok img{
+	width: 1.75rem;
+	height: 0.56rem;
+	display: block;
+	margin: 0 auto;
+
+
+}
+/* 按钮 */
+.but{
+	width: 5.33rem;
+	margin: 0.23rem auto 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.but .box{
+	width: 1.75rem;
+	height: 0.58rem;
+	box-shadow: 0 0 0.03rem 0.06rem #c8eeff;
+	border-radius: 0.29rem;
+	background: #00b8ee;
+	color: #fff;
+	text-align: center;
+	line-height: 0.58rem;
+	font-size: 0.24rem;
+	font-weight: bold;
+
+}
+
+.ok1{
+	width: 100%;
+	margin-top: 0.3rem;
+
+
+}
+.ok1 img{
+	width: 1.75rem;
+	height: 0.55rem;
+	display: block;
+	margin: 0 auto;
+
+
+}
+.con{
+	width: 100%;
+	height:7rem;
+	overflow: scroll;
+	padding: 0 0.24rem;
+
+}
+.con .imgbox{
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	margin-top: 0.34rem;
+}
+
+.con .imgbox .box{
+	width: 3.38rem;
+	height: 3.48rem;
+	margin-bottom: 0.24rem;
+	background-image: url('../img/shop01.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.con .imgbox .box:nth-child(2){
+	background-image: url('../img/shop02.png');
+
+}
+.con .imgbox .box:nth-child(3){
+	background-image: url('../img/shop03.png');
+
+}
+.con .imgbox .box:nth-child(4){
+	background-image: url('../img/shop04.png');
+
+}
+.con .imgbox .box h2{
+	margin-top: 2.2rem;
+	text-align: center;
+	font-size: 0.28rem;
+	color: rgba(0, 0, 0,0.8);
+}
+.con .imgbox .box h4{
+	text-align: center;
+	font-size: 0.2rem;
+	color: rgba(0, 0, 0,0.6);
+}
+.con .imgbox .box h5{
+	text-align: center;
+	font-size: 0.28rem;
+	color: red;
+	font-weight: normal;
+
+}
